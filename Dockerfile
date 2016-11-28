@@ -1,5 +1,5 @@
 # docker build --pull -t sonarqube:6.1-rhel7 -t sonarqube .
-FROM registry.access.redhat.com/rhel7
+FROM centos/centos7
 MAINTAINER Red Hat Systems Engineering <refarch-feedback@redhat.com>
 
 ENV SONAR_VERSION=6.1 \
